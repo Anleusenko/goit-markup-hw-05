@@ -370,9 +370,9 @@
         </div>
     </footer>
     <!--BACKDROP WITH MODAL WINSOW-->
-    <div class="backdrop-is-open modal-container">
+    <div class="backdrop.is-open modal-container">
         <div class="modal">
-            <button class="close-btn">
+            <button type="button" class="close-btn">
                 <svg class="close-button-icon" width="8" height="8" aria-label="modal close icon">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -426,13 +426,16 @@
                     <textarea 
                     class="review-form-textarea" 
                     id="user-comment" 
-                    name="comment"
+                    name="user-comment"
                     placeholder="Text input"></textarea>
                 </div>
                 <div class="review-form-checkbox-wrapper">
-                    <input type="checkbox" 
-                    class="review-form-checkbox"
+                    <input 
+                    class="review-form-checkbox visually-hidden"
+                    type="checkbox" 
+                    name="user-privacy" 
                     id="user-privacy" 
+                    value="true" 
                     required>
                     <label for="user-privacy" class="review-form-checkbox-label">I accept the terms and conditions of the
                         <a class="link-privacy" href="#">Privacy Policy
