@@ -392,7 +392,7 @@
         </div>
     </footer>
     <!--BACKDROP WITH MODAL WINSOW-->
-    <div class="modal-container backdrop">
+    <div class="modal-container backdrop.is-open">
         <div class="modal">
             <button class="close-btn" type="button">
                 <svg class="close-button-icon" width="8" height="8" aria-label="modal close icon">
@@ -440,19 +440,18 @@
                 </div>
                 <div class="review-form-checkbox-wrapper">
                     <input 
-                    class="review-form-checkbox visually-hidden"
+                    class="review-form-checkbox "
                     type="checkbox" 
                     name="user-privacy" 
                     id="user-privacy" 
                     value="true" 
                     required>
-                    <label for="user-privacy" class="review-form-checkbox-label">I accept the terms and conditions of the
+                    <label for="user-privacy" class="review-form-checkbox-label">
                         <span class="checkbox-privacy">
                             <svg class="checkbox-privacy-icon" width="10" height="8" >
                                 <use href="./images/icons.svg#icon-checkbox"></use>
                             </svg>
-
-                        </span>
+                        </span> I accept the terms and conditions of the
                         <a class="link-privacy" href="#">Privacy Policy
                         </a>
                     </label>
