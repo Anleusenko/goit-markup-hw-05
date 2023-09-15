@@ -473,7 +473,7 @@ background-color: #404bbf;
     margin-bottom: 16px;
 }
 .subscribe-form{
-    display: inline-flex;
+    display: flex;
     gap: 24px;
 }
 .subscribe-form-input { 

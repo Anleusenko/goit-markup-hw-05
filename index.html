@@ -370,17 +370,18 @@
             <div class="footer-subscribe-container">
                 <p class="subscribe-text">Subscribe</p>
                 <form class="subscribe-form">
-                    <label
-                    class="subscribe-label"
+                    <label 
+                    class="subscribe-label" 
                     for="user-subscribe">
+                        <input 
+                        class="subscribe-form-input" 
+                        type="email" 
+                        id="user-subscribe" 
+                        name="user-subscribe" 
+                        placeholder="E-mail"
+                        pattern="[a-zA-Z]+" 
+                        required>
                     </label>
-                    <input class="subscribe-form-input"
-                    type="email"
-                    id="user-subscribe"
-                    name="user-subscribe" 
-                    placeholder="E-mail"
-                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄҐґ']+" 
-                    required>
                     <button class="subscribe-button" type="button">Subscribe
                         <svg class="subscribe-button-icon" width="24" height="24" aria-label="subscribe button icon">
                             <use href="./images/icons.svg#icon-subscribe"></use>
