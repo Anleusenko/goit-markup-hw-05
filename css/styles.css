@@ -704,7 +704,7 @@ background-color: #404bbf;
     justify-content: center;
     fill: transparent;
 }
-.review-form-checkbox:checked + .checkbox-privacy {
+input:checked + label > span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
