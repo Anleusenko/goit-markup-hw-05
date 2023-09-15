@@ -693,6 +693,17 @@ background-color: #404bbf;
 .review-form-checkbox-wrapper {
     margin-bottom: 24px;
 }
+.checkbox-privacy {
+    width: 16px;
+    height: 12px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
 .send-button {
     color: #FFFFFF;
     background-color: #4D5AE5;
