@@ -677,6 +677,11 @@ background-color: #404bbf;
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    color: var(--LIGHT-SLATE, #8E8F99);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    width: 360px;
 }
 .review-form-checkbox-wrapper {
     margin-bottom: 24px;
@@ -697,24 +702,8 @@ input:checked + label > span {
     border: none;
     fill: #F4F4FD;
 }
-.text-accept {
-    color: var(--LIGHT-SLATE, #8E8F99);
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    width: 338px;
-
-}
 .link-privacy {
     color: var(--IRIS, #4D5AE5);
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    text-decoration-line: underline;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
 }
 .send-button {
     color: #FFFFFF;
