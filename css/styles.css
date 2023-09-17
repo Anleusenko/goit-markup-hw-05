@@ -523,7 +523,6 @@ background-color: #404bbf;
 
 /* BACKDROP */
 .backdrop {
-   
     position: fixed;
     z-index: 999999999;
     top: 0;
