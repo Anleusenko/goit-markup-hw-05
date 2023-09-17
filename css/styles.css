@@ -687,7 +687,6 @@ background-color: #404bbf;
     margin-bottom: 24px;
 }
 .checkbox-privacy {
-    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
